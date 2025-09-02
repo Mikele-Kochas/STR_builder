@@ -75,10 +75,10 @@ st.title("SRT Builder")
 
 col1, col2 = st.columns(2)
 with col1:
-	st.subheader("Tekst A: z timestampami (treść błędna, czasy poprawne)")
+	st.subheader("Tekst A: z timestampami")
 	text_a = st.text_area("Wklej tekst A", height=360)
 with col2:
-	st.subheader("Tekst B: poprawny (bez timestampów)")
+	st.subheader("Tekst B: poprawny")
 	text_b = st.text_area("Wklej tekst B", height=360)
 
 run = st.button("Generuj SRT (one-shot)")
