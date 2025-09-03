@@ -39,6 +39,7 @@ SYSTEM_PROMPT = (
 	"   - Start from block text in (A) as the baseline.\n"
 	"   - Replace phrases with the most similar phrases from (B) ONLY if the meaning is identical\n"
 	"     and the differences are orthographic: casing, diacritics, punctuation, spacing, numerals (e.g. 'rozdział drugi' ↔ 'Rozdział II'),\n"
+	"	- Keep the punctuation marks such as commas, periods, and dashes from the correct version. Pay special attention to the dashes in dialogues."
 	"     minor typos.\n"
 	"   - If a phrase exists in (A) but NOT in (B) (e.g., 'czyta XYZ'), KEEP it from (A). DO NOT delete it.\n"
 	"   - If a phrase exists in (B) but NOT in (A), DO NOT add it anywhere.\n"
